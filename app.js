@@ -36,7 +36,7 @@ $(document).ready(function () {
 
     $("h2").click(async function (e) {
         e.preventDefault();
-        let url = ``;
+        let url = `https://apidemo3news.vercel.app/api/news`;
 
         async function mynews() {
             let responce = await fetch(url);
